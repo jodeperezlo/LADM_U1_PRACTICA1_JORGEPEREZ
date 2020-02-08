@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo3"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:layout_gravity="top"
+        app:srcCompat="@drawable/cinco" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:text="TIPS TO BUILD A LANGUAGE LEARNING HABIT"
+        android:textAlignment="center"
+        android:textColor="#585555"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/holtwood_one_sc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:layout_weight="1"
+            android:text="+ free New Habit Tracker!"
+            android:textSize="26sp"
+            android:textStyle="italic"
+            app:fontFamily="@font/gloria_hallelujah" />
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="wrap_content"
+            android:layout_height="175dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/imagenfinal" />
+
+    </LinearLayout>
+
+</LinearLayout>
